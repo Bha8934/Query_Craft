@@ -1,7 +1,0 @@
-[theme]
-base="light"
-primaryColor="#FF6B81"              # Vibrant pink-red for buttons and highlights
-backgroundColor="#FAF9F6"           # Light ivory background
-secondaryBackgroundColor="#FDEFF4"  # Soft pinkish container background
-textColor="#2C2C2C"                 # Dark gray text
-font="sans serif"
