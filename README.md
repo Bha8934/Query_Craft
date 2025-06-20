@@ -187,13 +187,3 @@ def get_gemini_response(user_query):
 - [Pricing Details](https://ai.google.dev/pricing)
 
 **Note**: Free tier includes 60 requests/minute. Production usage costs $0.50/1k characters.
-
-## 🧰 Final Formatting Tips
-1. **Use consistent headers**: Start with # for main title, ## for sections
-2. **Add visual elements**: 
-   - Include screenshots in images/ folder
-   - Use badges for status (e.g., ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue))
-3. **Create TOC**: For long READMEs, add table of contents
-4. **Include examples**: Show input/output samples
-5. **Add license**: Include LICENSE file and badge
-6. **Maintain version**: Update README with each release
