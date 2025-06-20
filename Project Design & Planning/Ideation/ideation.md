@@ -56,13 +56,3 @@ Writing SQL queries can be difficult for non-technical users. QueryCraft allows 
 
 ---
 
-## 📁 Project Structure
-
-```
-QueryCraft/
-├── app.py
-├── .env
-├── requirements.txt
-├── images/
-└── README.md
-```
