@@ -1,3 +1,78 @@
+
+---
+
+````markdown
+# 🧩 Component List for QueryCraft
+
+This document outlines the major components used in the development of the **QueryCraft** application, which converts natural language queries into SQL using Gemini Pro.
+
+---
+
+## 1. 🖥️ User Interface (UI)
+
+- Built using **Streamlit**, a Python web framework
+- Accepts user input in the form of natural language
+- Displays generated SQL queries clearly
+- Uses key widgets:
+  - `st.text_input()` — for typing the question
+  - `st.button()` — to trigger the conversion
+  - `st.code()` — to display the SQL output in formatted style
+
+---
+
+## 2. ⚙️ Streamlit Framework
+
+- Lightweight Python library used to build interactive data apps
+- Handles layout, widgets, state, and web rendering without HTML/CSS
+- Enables fast prototyping with minimal boilerplate
+- Auto-reloads when code is saved
+
+---
+
+## 3. 🔗 Gemini API Integration
+
+- Uses the `google-generativeai` Python library
+- Calls the **Gemini Pro** model with structured prompts
+- Communicates using `generate_content()` for one-shot responses
+- Parses model output to display as SQL in the app
+- Example usage:
+  ```python
+  import google.generativeai as genai
+  genai.configure(api_key="your-api-key")
+  model = genai.GenerativeModel("gemini-pro")
+  response = model.generate_content(prompt)
+````
+
+---
+
+## 4. 🔐 Environment Configuration (.env Handling)
+
+* `.env` file used to securely store secrets (e.g., API keys)
+* Loaded using the `python-dotenv` package
+
+  ```python
+  from dotenv import load_dotenv
+  load_dotenv()
+  ```
+* Keeps sensitive values out of the main source code
+* Ensures `.env` is excluded from version control via `.gitignore`
+
+---
+
+## 🔁 Component Integration Flow
+
+```
+[User inputs natural language]
+       ↓
+[Streamlit captures input]
+       ↓
+[Prompt structured and sent to Gemini API]
+       ↓
+[Gemini returns SQL query]
+       ↓
+[SQL displayed in UI using st.code()]
+```
+
 ## 🧩 COMPONENT-WISE FLOWCHARTS & EXPLANATIONS
 
 ---
