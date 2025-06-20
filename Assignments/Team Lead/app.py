@@ -21,7 +21,7 @@ genai.configure(
 
 # Use the correct model name
 try:
-    model = genai.GenerativeModel('gemini-1.0-pro')  # Using stable version
+    model = genai.GenerativeModel('gemini-1.5 flash')  # Using stable version
 except Exception as e:
     st.error(f"Model initialization error: {str(e)}")
     model = None
