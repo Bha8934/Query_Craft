@@ -20,12 +20,12 @@ The application includes:
 
 ## 👥 Team Information
 
-| Name       | Role                       | Email                   | Availability       |
-|------------|----------------------------|--------------------------|--------------------|
-| Bhashitha  | Team Lead / Coordinator    | bhashitha@email.com      | 10am–6pm IST       |
-| Srija      | Gemini Integration & Logic | srija@email.com          | 11am–7pm IST       |
-| Abhishek   | Streamlit UI & UX          | abhishek@email.com       | 12pm–8pm IST       |
-| Sameer     | SQLite DB & Skill Bridging | sameer@email.com         | 2pm–10pm IST       |
+| Name       | Role                       | Email                                       | 
+|------------|----------------------------|---------------------------------------------|
+| Bhashitha  | Team Lead / Coordinator    | bhashithanjali.23bce8934@vitapstudent.ac.in |
+| Srija      | Gemini Integration & Logic | srija.23bce7913@vitapstudent.ac.in          | 
+| Abhishek   | Streamlit UI & UX          | abhishek.23bce9667@vitapstudent.ac.in       | 
+| Sameer     | SQLite DB & Skill Bridging | sameer.23bce8876@vitapstudent.ac.in         | 
 
 ---
 
@@ -97,7 +97,7 @@ The application includes:
 
 ## 📬 Communication Log
 
-- Team meets daily at 7 PM IST via Google Meet
+- Team meets daily via Google Meet
 - GitHub used for version control and issue tracking
 - WhatsApp for real-time coordination
 - Main repo: [github.com/Bha8934/QueryCraft](https://github.com/Bha8934/QueryCraft)
@@ -107,3 +107,4 @@ The application includes:
 > ✅ Maintained by **Bhashitha**  
 > 📅 Last updated: 2025-06-24  
 > 📁 Work began: **June 17, 2025**
+> 📁 Work done : **June 24, 2025**
